@@ -131,7 +131,7 @@ class PointPillars {
     int kMaxNumPillars;
     int kMaxNumPointsPerPillar;
     int kNumPointFeature;
-    int kNumGatherPointFeature = 11;
+    int kNumGatherPointFeature = 10;
     int kGridXSize;
     int kGridYSize;
     int kGridZSize;
