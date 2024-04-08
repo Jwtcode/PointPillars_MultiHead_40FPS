@@ -75,7 +75,7 @@ TEST(PointPillars, __build_model__) {
   std::string file_name = config["InputFile"].as<std::string>();
   float* points_array;
   int in_num_points;
-  in_num_points = Txt2Arrary(points_array,file_name,5);
+  in_num_points = Txt2Arrary(points_array,file_name,4);
  
 
   
